@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js"></script>
+        <script type="text/javascript">
+        	function genName(length) {
+				let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+				let out = "";
+				for (let i=0;i<length;i++) {
+					out += chars[Math.floor(Math.random()*chars.length)];
+				}
+				return out;
+			}
+
+			var name = decodeURI(document.location.hash)
+				.substring(1)
+				.replace(/[^a-zA-Z0-9]/g, "");
+
+           	var peer = new Peer(name+" "+genName(6));
+
+            function callMEEE() {
+	            navigator.webkitGetUserMedia({video:true,audio:false}, stream=>{
+	                var call = peer.call("testing123aaaa", stream);
+	                call.on("close", ()=>{callMEEE()});
+	                //call.on("error", callMEEE);
+	            }, err=>{});
+            }
+
+            callMEEE();
+        </script>
+    </body>
+</html>

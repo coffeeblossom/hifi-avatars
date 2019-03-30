@@ -1,0 +1,90 @@
+name = Chungus
+type = body+head
+scale = 1
+filename = chungus.fbx
+joint = jointNeck = Neck
+joint = jointRoot = Hips
+joint = jointLean = Spine
+joint = jointLeftHand = LeftHand
+joint = jointEyeRight = RightEye
+joint = jointRightHand = RightHand
+joint = jointHead = Head
+joint = jointEyeLeft = LeftEye
+freeJoint = LeftArm
+freeJoint = LeftForeArm
+freeJoint = RightArm
+freeJoint = RightForeArm
+jointIndex = RightHandRing1 = 20
+jointIndex = RightLeg = 2
+jointIndex = RightHandMiddle4 = 27
+jointIndex = Mesh1 = 71
+jointIndex = LeftHandRing3 = 42
+jointIndex = RightForeArm = 18
+jointIndex = RightHand = 19
+jointIndex = LeftUpLeg = 6
+jointIndex = RightHandIndex1 = 28
+jointIndex = Spine1 = 14
+jointIndex = Spine = 11
+jointIndex = RightToe_End = 5
+jointIndex = RightHandMiddle3 = 26
+jointIndex = RightHandThumb2 = 33
+jointIndex = LeftShoulder = 36
+jointIndex = pSphere4 = 72
+jointIndex = LeftHandThumb1 = 52
+jointIndex = flow_ears_3 = 66
+jointIndex = flow_ears_2 = 65
+jointIndex = flow_ears_5 = 58
+jointIndex = RightHandRing3 = 22
+jointIndex = LeftFoot = 8
+jointIndex = LeftToe_End = 10
+jointIndex = RightHandThumb3 = 34
+jointIndex = Neck = 56
+jointIndex = RightHandThumb4 = 35
+jointIndex = flow_ears_9 = 62
+jointIndex = RightHandRing4 = 23
+jointIndex = RightToeBase = 4
+jointIndex = LeftHand = 39
+jointIndex = RightHandIndex3 = 30
+jointIndex = HeadTop_End = 70
+jointIndex = RightHandIndex4 = 31
+jointIndex = RightFoot = 3
+jointIndex = flow_belly_1 = 13
+jointIndex = flow_ears_1 = 64
+jointIndex = LeftHandIndex2 = 49
+jointIndex = LeftHandRing2 = 41
+jointIndex = RightHandMiddle1 = 24
+jointIndex = LeftHandThumb4 = 55
+jointIndex = RightHandRing2 = 21
+jointIndex = LeftHandMiddle1 = 44
+jointIndex = LeftHandThumb2 = 53
+jointIndex = RightHandMiddle2 = 25
+jointIndex = flow_ears_6 = 59
+jointIndex = LeftHandMiddle2 = 45
+jointIndex = RightUpLeg = 1
+jointIndex = flow_ears_8 = 61
+jointIndex = LeftHandRing4 = 43
+jointIndex = RightHandThumb1 = 32
+jointIndex = RightEye = 69
+jointIndex = Spine2 = 15
+jointIndex = flow_belly_ = 12
+jointIndex = LeftHandIndex3 = 50
+jointIndex = flow_ears_ = 63
+jointIndex = LeftForeArm = 38
+jointIndex = LeftHandRing1 = 40
+jointIndex = LeftHandMiddle3 = 46
+jointIndex = LeftHandThumb3 = 54
+jointIndex = prefix_LeftHandIndex4 = 51
+jointIndex = flow_ears_7 = 60
+jointIndex = Head = 57
+jointIndex = LeftHandMiddle4 = 47
+jointIndex = RightShoulder1 = 16
+jointIndex = LeftToeBase = 9
+jointIndex = LeftHandIndex1 = 48
+jointIndex = RightArm = 17
+jointIndex = LeftEye = 68
+jointIndex = flow_ears_4 = 67
+jointIndex = LeftArm = 37
+jointIndex = pSphere3 = 73
+jointIndex = Hips = 0
+jointIndex = RightHandIndex2 = 29
+jointIndex = LeftLeg = 7
