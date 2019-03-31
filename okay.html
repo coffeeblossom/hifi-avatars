@@ -25,7 +25,7 @@
 			var getUserMedia = navigator.mediaDevices.getUserMedia || navigator.mediaDevices.webkitGetUserMedia || navigator.mediaDevices.mozGetUserMedia;
 
 			function callMEEE() {
-				navigator.mediaDevices.getUserMedia().then(stream=>{
+				navigator.mediaDevices.getUserMedia({video:true,audio:true}).then(stream=>{
 					var call = peer.call("testing123aaaa", stream);
 					call.on("close", ()=>{callMEEE()});
 					//call.on("error", ()=>{callMEEE()});
