@@ -15,16 +15,17 @@
 				return out;
 			}
 
-			var name = decodeURI(document.location.hash)
-				.substring(1)
-				.replace(/[^a-zA-Z0-9]/g, "");
+			//var name = decodeURI(document.location.hash)
+			//	.substring(1)
+			//	.replace(/[^a-zA-Z0-9]/g, "");
 
-			var peer = new Peer((name?name+" "+genName(8):genName(16)));
+			//var peer = new Peer((name?name+" "+genName(8):genName(16)));
+			var peer = new Peer();
 
 			var getUserMedia = navigator.mediaDevices.getUserMedia || navigator.mediaDevices.webkitGetUserMedia || navigator.mediaDevices.mozGetUserMedia;
 
 			function callMEEE() {
-				navigator.mediaDevices.getUserMedia({video:true, audio:true}).then(stream=>{
+				navigator.mediaDevices.getUserMedia().then(stream=>{
 					var call = peer.call("testing123aaaa", stream);
 					call.on("close", ()=>{callMEEE()});
 					//call.on("error", ()=>{callMEEE()});
