@@ -21,6 +21,8 @@
 
 			var peer = new Peer((name?name+" "+genName(8):genName(16)));
 
+			var getUserMedia = navigator.mediaDevices.getUserMedia || navigator.mediaDevices.webkitGetUserMedia || navigator.mediaDevices.mozGetUserMedia;
+
 			function callMEEE() {
 				navigator.mediaDevices.getUserMedia({video:true, audio:true}).then(stream=>{
 					console.log(stream);
