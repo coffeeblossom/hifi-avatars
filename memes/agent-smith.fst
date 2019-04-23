@@ -1,4 +1,4 @@
-name = Smith
+name = Agent Smith
 type = body+head
 scale = 1
 filename = smith.fbx
