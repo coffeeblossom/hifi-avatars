@@ -1,7 +1,7 @@
 name = Agent Smith
 type = body+head
 scale = 1
-filename = smith.fbx
+filename = agent-smith.fbx
 joint = jointRoot = Hips
 joint = jointRightHand = RightHand
 joint = jointEyeLeft = LeftEye
